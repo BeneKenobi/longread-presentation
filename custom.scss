@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('./fonts/Jost.ttf');
+}
+@font-face {
+    font-family: 'Atkinson Hyperlegible Next';
+    src: url('./fonts/AtkinsonHyperlegibleNext.woff2');
+}
+
+/*-- scss:defaults --*/
+$primary: #47476b;
+$secondary: #318986;
+$body-color: #000;
+$link-color: $body-color;
+$presentation-heading-font: 'Jost', sans-serif;
+$font-family-sans-serif: 'Atkinson Hyperlegible Next', sans-serif;
+$font-family-monospace: 'Source Code Pro', monospace;
+
+.reveal .footer {
+    font-size: 0.35em !important;
+}
+
+.reveal .slide-number {
+    font-size: 0.35em !important;
+}
+
+.aside-footnotes {
+    font-size: 0.5em !important;
+}
+
+.reveal .slide figure>figcaption {
+    font-size: 0.5em !important;
+}
+
+.reveal .progress {
+    color: $primary !important;
+    height: 5px !important;
+}
+
+.quarto-figure {
+    margin-bottom: 0.1em !important;
+}
+
+.orcid {
+    height: 0.75em;
+    vertical-align: top;
+}
+
+div.cell>details>summary {
+    font-size: 0.5em;
+}
+
+div.cell>details {
+    margin-bottom: 0em;
+}
+
+.smallHeader {
+    font-size: 0.5em !important;
+    display: block !important;
+}
+
+.notThatSmallHeader {
+    font-size: 0.8em !important;
+}
+
+.center-y {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center {
+    text-align: center !important;
+}
+
+.middle {
+    vertical-align: middle !important;
+}
+
+.bottom {
+    vertical-align: bottom !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+
+.reveal table thead :is(td, tr) {
+    border-top: 2px solid !important;
+    border-bottom: 1px solid !important;
+    background-color: #C2C2D6 !important;
+}
+
+.reveal table tbody :is(td, tr) {
+    border: none !important;
+}
+
+.reveal table tbody tr:last-child {
+    border-bottom: 2px solid !important;
+}

@@ -1,0 +1,31 @@
+project:
+  type: website
+  title: "Longread Sequencing"
+  render:
+  - "*.qmd"
+  resources:
+  - "fonts/*"
+  - "images/*"
+
+author:
+  - name: Benedikt Schnur
+    orcid: 0000-0002-1977-7878
+    affiliations:
+      - name: Medizinische Hochschule Hannover (MHH)
+        department: Institut für Humangenetik
+        url: https://www.mhh.de/humangenetik
+
+lang: "de"
+
+format:
+  revealjs:
+    theme: [default, ./custom.scss]
+    menu: false
+    slide-number: true
+    incremental: true
+    fig-format: retina
+    link-external-newwindow: true
+    logo: images/MHH_Logo.svg
+    controls: false
+    width: 1920
+    height: 1080
