@@ -25,7 +25,7 @@
     "href": "Longread.html#paraphasechenetalgenomewideprofilinghighly2025chenetalcomprehensivesmn1smn22023",
     "title": "Long-Read Sequencing",
     "section": "Paraphase4,5",
-    "text": "Paraphase4,5\n\n\n\nLong-Read-basierter Caller für hochhomologe Paraloge/Pseudogene (z.B. SMN1/SMN2, PMS2, CYP21A2, GBA)\nRealignment aller Reads einer Genfamilie auf ein Referenzgen, anschließend Phasing in Haplotypen\nLiefert Kopienzahlen, gephaste Varianten und Genkonversionen\n\n\n\n\n\n\n\n\nAbbildung 5: Paraphase Workflow\n\n\n\n\n\n\nNeuere Veriosnen exklusiv für PacBio Daten lizensiert\nmegSAP integriert\nSoon eine DB dazu (CN)"
+    "text": "Paraphase4,5\n\n\n\nLong-Read-basierter Caller für hochhomologe Paraloge/Pseudogene (z.B. SMN1/SMN2, PMS2, CYP21A2, GBA)\nRealignment aller Reads einer Genfamilie auf ein Referenzgen, anschließend Phasing in Haplotypen\nLiefert Kopienzahlen, gephaste Varianten und Genkonversionen\n\n\n\n\n\n\n\n\nAbbildung 5: Paraphase Workflow4\n\n\n\n\n\n\nNeuere Veriosnen exklusiv für PacBio Daten lizensiert\nmegSAP integriert\nSoon eine DB dazu (CN)"
   },
   {
     "objectID": "Longread.html#paper-empfehlung",
