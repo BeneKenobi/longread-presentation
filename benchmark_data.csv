@@ -1,0 +1,6 @@
+Sequencing Type,SNV_Sensitivity,SNV_Precision,Indel_Sensitivity,Indel_Precision
+Illumina Short-Read - DRAGEN 4.3.13 with ML model 35x,99.80,99.81,99.68,99.55
+ONT Long-Read (high accuracy) 42x,99.84,99.83,78.61,97.40
+ONT Long-Read (super accuracy) 42x,99.82,99.87,89.58,96.19
+PacBio Long-Read 20x,99.88,99.83,98.08,98.89
+PacBio Long-Read 30x,99.96,99.84,98.82,99.21
