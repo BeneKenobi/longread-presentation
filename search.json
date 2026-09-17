@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "Longread.html#quick-facts",
+    "href": "Longread.html#quick-facts",
+    "title": "Long-Read Sequencing",
+    "section": "Quick-Facts",
+    "text": "Quick-Facts\n\n\n\nRead-Länge:\n\n15-20 kbp PacBio\n10–30 kbp ONT (Variabel, auch bis zu 4 Mbp1)\n\nBasecalling-Genauigkeit:\n\nPacBio: &gt;99,9 % - &gt;99,99 % (Q30–Q40)\nONT: &gt;99,0 % - ~99,5 % (Q20–Q23) simplex, &gt;99,9 % (Q30) duplex\n\nMethylierung (ONT leicht besser als PacBio2)\nPhasing\n\n\n\n\n\n\n\n\nAbbildung 1: PromethION (© Oxford Nanopore Technologies)\n\n\n\n\n\n\n\n\n\nAbbildung 2: Revio (© PacBio)\n\n\n\n\n\n\nbeide Technologien lesen Einzel-Moleküle direkt\nONT: Längen variabel, größere Verteilung, oft als N50 angegeben (also 50% der Reads sind länger als N50), sehr lange Reads möglich, aber auch viele kurze Reads, sehr Wetlab anbhängig\nPacBio: Längen stabil, kleine werden vorher ausgefiltert im Wetlab (für Circular Consensus Sequencing)"
+  },
+  {
+    "objectID": "Longread.html#benchmarks",
+    "href": "Longread.html#benchmarks",
+    "title": "Long-Read Sequencing",
+    "section": "Benchmarks",
+    "text": "Benchmarks\n\n\n\n\n                            \n                                            \n\n\nAbbildung 3: Benchmarks. Illumina/ONT Daten von megSAP3, PacBio eigene Daten. Indel &lt;= 50 bp.\n\n\n\n\n\n\nSensitivität: Von allen echten Varianten im Truth-Set — wie viele hat der Caller gefunden?\nPräzision: Von allen Varianten, die der Caller gerufen hat — wie viele sind echt (keine False Positives)?"
+  },
+  {
+    "objectID": "Longread.html#phasing",
+    "href": "Longread.html#phasing",
+    "title": "Long-Read Sequencing",
+    "section": "Phasing",
+    "text": "Phasing\n\n\nAbbildung 4: IGV Screenshot, PacBio HG001, BRCA2 (eigene Daten)"
+  },
+  {
+    "objectID": "Longread.html#paraphasechenetalgenomewideprofilinghighly2025chenetalcomprehensivesmn1smn22023",
+    "href": "Longread.html#paraphasechenetalgenomewideprofilinghighly2025chenetalcomprehensivesmn1smn22023",
+    "title": "Long-Read Sequencing",
+    "section": "Paraphase4,5",
+    "text": "Paraphase4,5\n\n\n\nLong-Read-basierter Caller für hochhomologe Paraloge/Pseudogene (z.B. SMN1/SMN2, PMS2, CYP21A2, GBA)\nRealignment aller Reads einer Genfamilie auf ein Referenzgen, anschließend Phasing in Haplotypen\nLiefert Kopienzahlen, gephaste Varianten und Genkonversionen\n\n\n\n\n\n\n\n\nAbbildung 5: Paraphase Workflow\n\n\n\n\n\n\nNeuere Veriosnen exklusiv für PacBio Daten lizensiert\nmegSAP integriert\nSoon eine DB dazu (CN)"
+  },
+  {
+    "objectID": "Longread.html#paper-empfehlung",
+    "href": "Longread.html#paper-empfehlung",
+    "title": "Long-Read Sequencing",
+    "section": "Paper Empfehlung",
+    "text": "Paper Empfehlung\n\nZheng, X., Sanio, P., Luo, R., Li, H. & Sedlazeck, F. J.\nBioinformatics for human long-read whole-genome sequencing\nNature Reviews Methods Primers 6, 70 (2026)6"
+  },
+  {
+    "objectID": "Longread.html#references",
+    "href": "Longread.html#references",
+    "title": "Long-Read Sequencing",
+    "section": "References",
+    "text": "References\n\n\n1. Mahmoud, M., Agustinho, D. P. & Sedlazeck, F. J. A Hitchhiker’s Guide to Long-Read Genomic Analysis. Genome Research 35, 545–558 (2025).\n\n\n2. Fu, Y., Timp, W. & Sedlazeck, F. J. Computational Analysis of DNA Methylation from Long-Read Sequencing. Nat Rev Genet 26, 620–634 (2025).\n\n\n3. megSAP/Doc/Performance.Md at 2026_06 · Imgag/megSAP. https://github.com/imgag/megSAP/blob/2026_06/doc/performance.md.\n\n\n4. Chen, X. u. a. Genome-Wide Profiling of Highly Similar Paralogous Genes Using HiFi Sequencing. Nat Commun 16, 2340 (2025).\n\n\n5. Chen, X. u. a. Comprehensive SMN1 and SMN2 Profiling for Spinal Muscular Atrophy Analysis Using Long-Read PacBio HiFi Sequencing. The American Journal of Human Genetics 110, 240–250 (2023).\n\n\n6. Zheng, X., Sanio, P., Luo, R., Li, H. & Sedlazeck, F. J. Bioinformatics for Human Long-Read Whole-Genome Sequencing. Nat Rev Methods Primers 6, 70 (2026)."
+  }
+]
