@@ -113,7 +113,7 @@ fig.show()
 
 ::: {.column width="40%"}
 
-![Paraphase Workflow](images/paraphase_diagram.png){width=100% #fig-paraphase}
+![Paraphase Workflow[@ChenEtAlGenomewideProfilingHighly2025]](images/paraphase_diagram.png){width=100% #fig-paraphase}
 
 :::
 
