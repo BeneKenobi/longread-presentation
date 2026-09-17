@@ -1,6 +1,6 @@
 project:
   type: website
-  title: "Longread Sequencing"
+  title: "Long-Read Sequencing"
   render:
   - "*.qmd"
   resources:
