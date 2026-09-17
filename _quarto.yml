@@ -17,6 +17,8 @@ author:
 
 lang: "de"
 
+jupyter: python3
+
 format:
   revealjs:
     theme: [default, ./custom.scss]
